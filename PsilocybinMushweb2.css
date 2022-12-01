@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+}
+.blue{
+    background: #234194;
+    height: 800px;
+}
+nav{
+    margin-right: 30px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    text-align: center;
+}
+.nav1, .nav3{
+    display: inline-block;
+}
+.nav1, .nav3{
+    width: 500px;
+}
+.nav1{
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-left: 30px;
+    text-align: right;
+}
+.nav1 a{
+    text-decoration: none;
+    color: #FF7BAC;
+    font-family: 'Calistoga', cursive;
+    font-size: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.brain{
+    height: 100px;
+    vertical-align: middle;
+}
+.nav3{
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 50px;
+    text-align: left;
+}
+.nav3 a{
+    text-decoration: none;
+    color: #FF7BAC;
+    font-family: 'Calistoga', cursive;
+    font-size: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.rowing{
+    background-image: url(Images/mushtop1.png);
+    background-size: contain;
+    background-position: left;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.banner1 h6{
+    font-size: 120px;
+    font-family: 'Calistoga', cursive;
+    color: #FF7BAC;
+    line-height: 120px;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: 70px;
+    float: right;
+    transform: translateY(200px);
+}
+.banner2{
+    text-align: left;
+    margin-left: 70px;
+}
+.row2 p{
+    position: absolute;
+    text-align: left;
+    color: #EDEBE7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 300px;
+}
+.parallax1{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 650px, auto;
+    background-position: right;
+    background-attachment: fixed;
+    background-color: black;
+    background-image: url(Images/psilocybincube.png);
+}
+.Content1{
+    margin-right: 70px;
+}
+.Content1 h8{
+    font-family: 'Calistoga', cursive;
+    color: #FF7BAC;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 70px;
+    float: left;
+}
+.Content1 p{
+    position: absolute;
+    text-align: left;
+    color: #EDEBE7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 325px;
+    margin-left: 70px;
+}
+.Content2{
+    margin-right: 40px;
+}
+.Content2 h8{
+    font-family: 'Calistoga', cursive;
+    color: #234194;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+    margin-top: 150px;
+    margin-right: 360px;
+    float: right;
+}
+.Content2 p{
+    text-align: left;
+    color: #EDEBE7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 325px;
+    margin-right: 0px;
+    margin-left: 740px;
+    float: right;
+    position: absolute;
+}
+.Content3{
+    margin-right: 40px;
+}
+.Content3 h8{
+    font-family: 'Calistoga', cursive;
+    color: #234194;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+    margin-top: 150px;
+    margin-right: 220px;
+    float: right;
+}
+.Content3 p{
+    text-align: left;
+    color: #EDEBE7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 325px;
+    margin-right: 0px;
+    margin-left: 740px;
+    float: right;
+    position: absolute;
+}
+.Content4{
+    margin-right: 40px;
+}
+.Content4 h8{
+    font-family: 'Calistoga', cursive;
+    color: #234194;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+    margin-top: 150px;
+    margin-right: 380px;
+    float: right;
+}
+.Content4 p{
+    text-align: left;
+    color: #EDEBE7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 325px;
+    margin-right: 0px;
+    margin-left: 740px;
+    float: right;
+    position: absolute;
+}
+.Content5{
+    margin-right: 40px;
+}
+.Content5 h8{
+    font-family: 'Calistoga', cursive;
+    color: #234194;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+    margin-top: 150px;
+    margin-right: 322px;
+    float: right;
+}
+.Content5 p{
+    text-align: left;
+    color: #EDEBE7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 325px;
+    margin-right: 0px;
+    margin-left: 740px;
+    float: right;
+    position: absolute;
+}
+.Content6{
+    margin-right: 40px;
+}
+.Content6 h8{
+    font-family: 'Calistoga', cursive;
+    color: #234194;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+    margin-top: 150px;
+    margin-right: 280px;
+    float: right;
+}
+.Content6 p{
+    text-align: left;
+    color: #EDEBE7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 325px;
+    margin-right: 0px;
+    margin-left: 740px;
+    float: right;
+    position: absolute;
+}
+.parallax2{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 600px,auto;
+    background-position: left;
+    background-attachment: fixed;
+    background-color: #FF7BAC;
+    background-image: url(Images/psilocybemexicana.png);
+}
+.parallax3{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 1130px,contain;
+    background-position: right;
+    background-attachment: fixed;
+    background-color: black;
+    background-image: url(Images/newderrumbes.png);
+}
+.parallax4{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 1020px, auto;
+    background-position: left;
+    background-attachment: fixed;
+    background-color: #FF7BAC;
+    background-image: url(Images/newb+cubensis.png);
+}
+.parallax5{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 1000px,auto;
+    background-position: right;
+    background-attachment: fixed;
+    background-color: black;
+    background-image: url(Images/libertycaps.png);
+}
+.parallax6{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 900px, auto;
+    background-position: left;
+    background-attachment: fixed;
+    background-color: #FF7BAC;
+    background-image: url(Images/newflyingsaucer.png);
+}
+.parallax7{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 1100px, auto;
+    background-position: right;
+    background-attachment: fixed;
+    background-color: black;
+    background-image: url(Images/pinkbuffalo.png);
+}
+.parallax8{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 400px, auto;
+    background-position: left;
+    background-attachment: fixed;
+    background-color: #FF7BAC;
+    background-image: url(Images/goldenteacher.png);
+}
+.parallax9{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 1000px, auto;
+    background-position: right;
+    background-attachment: fixed;
+    background-color: black;
+    background-image: url(Images/wavycaps.png); 
+}
+.parallax10{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 1000px, auto;
+    background-position: left;
+    background-attachment: fixed;
+    background-color: #FF7BAC;
+    background-image: url(Images/bluemeanies.png);
+}
+.footer{
+    background-color: black;
+    height: 150px; 
+    padding: 50px 15%;
+    display: flex;
+    color: #EDEBE7;
+}
+.footer div{
+    text-align: center;
+    
+}
+.footer div h5,h6{
+    font-family: 'Calistoga', cursive;
+    font-size: 20px;
+    color: #FF7BAC;
+    text-align: left;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #EDEBE7;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.col-2{
+    margin-top: 25px;
+    
+}
+.col-2 a{
+    display: flex;
+    text-decoration: none;
+    color: #EDEBE7;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+.col-3{
+    margin-left: 400px;
+}
+.social-icons i{
+    color: #EDEBE7;
+    font-size: 30px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+
+
+
